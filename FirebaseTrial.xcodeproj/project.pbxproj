@@ -10,6 +10,8 @@
 		D9E2D696AF5363BFDB03E1BD /* Pods_FirebaseTrial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B62CD91DC90665A050202E0 /* Pods_FirebaseTrial.framework */; };
 		DB4A33311F3B74AA001EF738 /* StateView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4A332F1F3B74AA001EF738 /* StateView.storyboard */; };
 		DB4A33321F3B74AA001EF738 /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A33301F3B74AA001EF738 /* StateViewController.swift */; };
+		DB4A33391F3B76BF001EF738 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4A33371F3B76BF001EF738 /* SignIn.storyboard */; };
+		DB4A333A1F3B76BF001EF738 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A33381F3B76BF001EF738 /* SignInViewController.swift */; };
 		DB4A333D1F3B76C9001EF738 /* RegisterUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4A333B1F3B76C9001EF738 /* RegisterUser.storyboard */; };
 		DB4A333E1F3B76C9001EF738 /* RegisterUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A333C1F3B76C9001EF738 /* RegisterUserViewController.swift */; };
 		DB7D7D1E1F3B67A0002C5AEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7D7D1D1F3B67A0002C5AEE /* AppDelegate.swift */; };
@@ -27,6 +29,8 @@
 		7B62CD91DC90665A050202E0 /* Pods_FirebaseTrial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTrial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4A332F1F3B74AA001EF738 /* StateView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StateView.storyboard; sourceTree = "<group>"; };
 		DB4A33301F3B74AA001EF738 /* StateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
+		DB4A33371F3B76BF001EF738 /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		DB4A33381F3B76BF001EF738 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		DB4A333B1F3B76C9001EF738 /* RegisterUser.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegisterUser.storyboard; sourceTree = "<group>"; };
 		DB4A333C1F3B76C9001EF738 /* RegisterUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUserViewController.swift; sourceTree = "<group>"; };
 		DB7D7D1A1F3B67A0002C5AEE /* FirebaseTrial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTrial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				DB4A33361F3B76A5001EF738 /* RegisterUser */,
+				DB4A33351F3B76A1001EF738 /* SignIn */,
 				DB4A33341F3B74F6001EF738 /* State */,
 			);
 			name = View;
@@ -90,6 +95,15 @@
 				DB4A332F1F3B74AA001EF738 /* StateView.storyboard */,
 			);
 			name = State;
+			sourceTree = "<group>";
+		};
+		DB4A33351F3B76A1001EF738 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				DB4A33371F3B76BF001EF738 /* SignIn.storyboard */,
+				DB4A33381F3B76BF001EF738 /* SignInViewController.swift */,
+			);
+			name = SignIn;
 			sourceTree = "<group>";
 		};
 		DB4A33361F3B76A5001EF738 /* RegisterUser */ = {
@@ -207,6 +221,7 @@
 				DBE887771F3B6ABB00D5B971 /* GoogleService-Info.plist in Resources */,
 				DB7D7D251F3B67A0002C5AEE /* Assets.xcassets in Resources */,
 				DB4A333D1F3B76C9001EF738 /* RegisterUser.storyboard in Resources */,
+				DB4A33391F3B76BF001EF738 /* SignIn.storyboard in Resources */,
 				DB7D7D231F3B67A0002C5AEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4A333A1F3B76BF001EF738 /* SignInViewController.swift in Sources */,
 				DB4A33321F3B74AA001EF738 /* StateViewController.swift in Sources */,
 				DBE887751F3B692200D5B971 /* SignUpViewController.swift in Sources */,
 				DBE887721F3B692200D5B971 /* Item.swift in Sources */,
