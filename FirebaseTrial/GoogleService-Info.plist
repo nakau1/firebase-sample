@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>165141469590-etga7d85vaq4m7qjg244rlihbpls61tb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.165141469590-etga7d85vaq4m7qjg244rlihbpls61tb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDZ6LgbNXOhPU_Wrc---P3BsaT8mB23CYE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>165141469590</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.neroblu.ios.FirebaseTrial</string>
+	<key>PROJECT_ID</key>
+	<string>firstsample-5c7bf</string>
+	<key>STORAGE_BUCKET</key>
+	<string>firstsample-5c7bf.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:165141469590:ios:427e073dd4773c00</string>
+	<key>DATABASE_URL</key>
+	<string>https://firstsample-5c7bf.firebaseio.com</string>
+</dict>
+</plist>
